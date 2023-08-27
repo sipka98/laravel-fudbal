@@ -11,7 +11,7 @@ class Team extends Model
 
     protected $table = 'teams';
 
-    protected $fillable = ['name', 'address', 'years', 'phone', 'country'];
+    protected $fillable = ['name', 'address', 'years', 'phone', 'country', 'email'];
 
     public function fixtures()
     {
